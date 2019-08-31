@@ -13,7 +13,6 @@ export default function Demo(){
     useEffect(()=>{
       axios.get(url)
       .then(res => {
-          console.log(res.data.body);
           setTodos(todos.concat(res.data.body)); 
           setNum(res.data.body.length+1);
         }
@@ -46,7 +45,6 @@ export default function Demo(){
     function line(idd){
       setTodos(todos.map((c)=>(
         c.id===idd ? ({id:c.id,title:c.title, status:'complete'} ): c
-        
       )
       )
       );
@@ -62,8 +60,6 @@ export default function Demo(){
       </div>
     )
     );
-  
-    console.log(show);
     
     
   return (
