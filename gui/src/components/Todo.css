@@ -1,0 +1,45 @@
+.full{
+    text-align:center;
+    background-color:#FF8362;
+    line-height:2;
+    width:100%;
+}
+.dd{
+    position:relative; width:30%;
+    margin:auto;
+    
+}
+.todolist{
+    list-style-type:none;
+    text-align:left;
+    margin-bottom:0.5rem;
+    padding:0.3rem;
+    background-color:#CDCDCD;
+    opacity:0.8;
+    border-radius:6px;
+}
+.ii{
+    font-size:1.6em;
+}
+.btn {
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+.red {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #CE3323;
+  }
+.red:hover {
+    background-color:#FF6656;
+}
+.aa{
+    padding:3px;
+    font-weight:bold;
+    margin-left:auto;
+}
